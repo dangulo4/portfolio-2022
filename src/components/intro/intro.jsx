@@ -4,7 +4,7 @@ import './intro.css'
 
 function intro() {
   return (
-    <section className='intro'>
+    <main className='intro'>
       <section className='intro-left'>
         <div className='intro-left-wrapper'>
           <h2 className='intro-greeting'>Hello, my name is</h2>
@@ -22,7 +22,7 @@ function intro() {
             It has been my passion to become an expert in web development. I
             have a diverse set of programming skills in full stack web
             application development. I strive for clean content and simple
-            structure with thoughtful design
+            structure with thoughtful design.
           </p>
         </div>
         <svg
@@ -86,7 +86,7 @@ function intro() {
         {/* <div className='intro-bg'></div> */}
         <img src={Cover} alt='cover' className='intro-img' />
       </section>
-    </section>
+    </main>
   )
 }
 
