@@ -72,3 +72,24 @@
   color: #555;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+    /* height: 75vh; */
+    padding: 10px;
+  }
+  .about-left {
+    display: none;
+  }
+  .about-right {
+    padding: 10px;
+  }
+  .about-title {
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+  }
+}

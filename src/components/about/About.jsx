@@ -15,7 +15,7 @@ function about() {
       <section className='about-right'>
         <h1 className='about-title'>About Me</h1>
         <p className='about-sub'>
-          Native from San Diego, I would describe myself as a person with a
+          Native from San Diego, CA, I would describe myself as a person with a
           versatile skill-set, a lot of integrity, and a willingness to go
           beyond the extra mile to satisfy the customer.
         </p>
