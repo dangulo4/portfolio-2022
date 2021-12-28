@@ -1,5 +1,6 @@
 import React from 'react'
 import Showcase from '../../img/showcase.jpg'
+import LinkedIn from '../../img/linkedIn.png'
 
 import './about.css'
 
@@ -9,7 +10,13 @@ function about() {
       <section className='about-left'>
         <div className='about-card bg'></div>
         <div className='about-card'>
-          <img src={Showcase} alt='showcase' className='about-image' />
+          <a
+            href='https://www.linkedin.com/in/daniel-angulo-0b7a3781/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={LinkedIn} alt='showcase' className='about-image' />
+          </a>
         </div>
       </section>
       <section className='about-right'>
@@ -27,7 +34,7 @@ function about() {
           satisfaction of stake-holders.
         </p>
         <div className='about-award'>
-          <img src='' alt='' className='about-award-image' />
+          <img src={Showcase} alt='' className='about-award-image' />
           <div className='about-award-texts'>
             <h4 className='about-award-title'>International Design</h4>
             <p className='about-award-desc'>

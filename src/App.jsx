@@ -1,11 +1,13 @@
 import Intro from './components/intro/Intro.jsx'
 import About from './components/about/About.jsx'
+import ProjectList from './components/projectList/ProjectList.jsx'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Intro></Intro>
-      <About></About>
+      <Intro />
+      <About />
+      <ProjectList />
     </div>
   )
 }

@@ -1,0 +1,27 @@
+.projectList {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectList-texts {
+  width: 65%;
+}
+
+.projectList-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.projectList-desc {
+  margin: 20px 0px;
+}
+
+.projectList-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
