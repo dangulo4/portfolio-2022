@@ -1,4 +1,5 @@
 .projectList {
+  margin-left: 50px;
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
@@ -7,10 +8,14 @@
 }
 
 .projectList-texts {
-  width: 65%;
+  align-items: center;
+  justify-content: center;
+  /* width: 65%; */
 }
 
 .projectList-title {
+  align-items: center;
+  justify-content: center;
   font-size: 50px;
   font-weight: 600;
 }
@@ -24,4 +29,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .projectList {
+    padding: 10px;
+  }
+
+  .projectList-texts {
+    width: 100%;
+  }
+
+  .projectList-desc {
+    display: none;
+  }
 }

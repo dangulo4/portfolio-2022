@@ -1,13 +1,26 @@
-import Intro from './components/intro/Intro.jsx'
-import About from './components/about/About.jsx'
-import ProjectList from './components/projectList/ProjectList.jsx'
+import { useContext } from 'react'
+import Intro from './components/intro/Intro'
+import About from './components/about/About'
+import ProjectList from './components/projectList/ProjectList'
+import Contact from './components/contact/Contact'
+import Toggle from './components/toggle/Toggle'
+import { ThemeContext } from './context'
 
 const App = () => {
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: darkMode ? '#222' : '#fff',
+        color: darkMode && '#fff',
+      }}
+    >
+      <Toggle />
       <Intro />
       <About />
       <ProjectList />
+      <Contact />
     </div>
   )
 }

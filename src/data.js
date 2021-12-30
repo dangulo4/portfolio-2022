@@ -1,6 +1,6 @@
 import Doleman from './img/doleman.png'
 import Steadfast from './img/steadfast.png'
-import Employee from './img/employee-tracker.png'
+import Employee from './img/employeeTracker.png'
 import MoviesDB from './img/moviesdb.png'
 import NoteTaker from './img/note-taker.png'
 import FitnessTracker from './img/fitnessTracker.png'
@@ -18,7 +18,7 @@ export const projects = [
     code: 'https://github.com/dangulo4/doleman',
     title: 'Doleman',
     description:
-      'Doleman is a React web application that enables companies to easily find contacts at prospective domains (powered by Hunter.io), ability to integrate contacts with a user interface through a seamless user experience.',
+      'Doleman is a React web application performing CRUD functions for contact management.',
   },
   {
     id: 2,
@@ -35,7 +35,8 @@ export const projects = [
     link: 'https://infinite-reef-05716.herokuapp.com/',
     code: 'https://github.com/dangulo4/react-employee-directory',
     title: 'Employee Directory',
-    description: 'Employee Directory is a React web application',
+    description:
+      'Employee Directory is a React web application using random.me api to extract and filter fictious employees based on full name or city.',
   },
   {
     id: 4,
