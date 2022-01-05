@@ -7,14 +7,13 @@ import { projects } from '../../data'
 
 const ProjectList = () => {
   return (
-    <div className='projectList'>
+    <div className='projectList' id='projects'>
       <div className='projectList-texts'>
         <h1 className='projectList-title'>My Projects</h1>
         <p className='projectList-desc'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vitae
-          iusto optio necessitatibus velit rem! Architecto facere, aut delectus
-          consequuntur odit minus corrupti neque animi totam, sint ad iusto
-          praesentium!
+          From Web Components and full CRUD applications with React.JS, Node.JS,
+          Javascript, HTML, CSS. Check out my latest web software development
+          portfolio projects.
         </p>
       </div>
       <div className='projectList-list'>

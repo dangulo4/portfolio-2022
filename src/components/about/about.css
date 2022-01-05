@@ -57,6 +57,7 @@
 
 .about-sub {
   margin: 20px 0px;
+  font-weight: 300;
 }
 
 .about-desc {
@@ -83,20 +84,30 @@
 @media screen and (max-width: 480px) {
   .about {
     flex-direction: column;
-    /* height: 75vh; */
-    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
   }
   .about-left {
+    /* display: none; */
+    width: 100%;
+  }
+
+  .about-card {
+    height: 30vh;
+  }
+
+  .about-card.bg,
+  .about-award {
     display: none;
   }
+
   .about-right {
-    padding: 10px;
-  }
-  .about-title {
-    font-size: 60px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 2rem;
+    padding: 20px;
   }
 }
+
+/* @media screen and (max-width: 768px) and (min-width: 480px) {
+  .about {
+    display: flex;
+  }
+} */

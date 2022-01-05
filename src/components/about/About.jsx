@@ -1,12 +1,13 @@
 import React from 'react'
 import Showcase from '../../img/showcase.jpg'
 import LinkedIn from '../../img/linkedIn.png'
+import Resume from '../../img/DanielAngulo.pdf'
 
 import './about.css'
 
 function about() {
   return (
-    <main className='about'>
+    <main className='about' id='about'>
       <section className='about-left'>
         <div className='about-card bg'></div>
         <div className='about-card'>
@@ -22,24 +23,26 @@ function about() {
       <section className='about-right'>
         <h1 className='about-title'>About Me</h1>
         <p className='about-sub'>
-          Native from San Diego, CA, I would describe myself as a person with a
-          versatile skill-set, a lot of integrity, and a willingness to go
-          beyond the extra mile to satisfy the customer.
+          Fullstack developer from sunny San Diego, CA. I truly believe that
+          what makes us different makes us stronger. If I had to describe
+          myself, I am a person with a versatile skill-set, a lot of integrity,
+          and a willingness to bring value.
         </p>
         <p className='about-desc'>
-          Over the past 10 years I have worked within healthcare. Being
-          analytical driven and engaged on multiple projects has given me the
-          expirence to be successful in an agile environment. I strive to
-          complete projects on time, within budget, and most importantly to the
-          satisfaction of stake-holders.
+          It has been my passion to become an expert in coding. I have a diverse
+          set of programming skills in full stack web application development. I
+          strive for clean content and simple structure with thoughtful design.
         </p>
         <div className='about-award'>
           <img src={Showcase} alt='' className='about-award-image' />
           <div className='about-award-texts'>
-            <h4 className='about-award-title'>International Design</h4>
+            <h4 className='about-award-title'>My Resume</h4>
             <p className='about-award-desc'>
-              Lorem ipsumcum eligendi error voluptatem temporibus quos magni ad
-              rem?
+              Click {}
+              <a href={Resume} target='_blank' rel='noreferrer'>
+                here
+              </a>
+              {} to view my Resume
             </p>
           </div>
         </div>
