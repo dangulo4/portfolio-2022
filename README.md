@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c6883f2e-92b2-40dd-a355-484edc202751/deploy-status)](https://app.netlify.com/sites/gallant-pasteur-d0264b/deploys)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio Title
 
-## Available Scripts
+Daniel Angulo's Web Developer Portfolio
 
-In the project directory, you can run:
+# Learning
 
-### `npm start`
+As part of the web development cohort, successfully deployed using Git and Heroku using front-end and back-end technologies such as MySQL, MongoDB, NodeJS, Express (MERN Stack), React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Wrote Node.js server code to serve static web pages
+2. Query large amounts of data by creating CLI from a MySQL database
+3. Used NoSQL database such as MongoDB as an alternative to MySQL
+4. Improving the performance of applications
+5. Converting traditional web applications into progressive web applications (PWA)
+6. Created single-page applications with React
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Description
 
-### `npm test`
+The website is intended to introduce myself as a web developer. There are three pages which are titled: About Me, Contact, and Profile.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. About Me: Contains a headshot of myself with a introduction highliting short term goals that focuses on web development.
+2. Contact: Contains three fields that allow a user or potential employer to connect and start a conversation.
+3. Profile: This page highlights past and current project intended to highlight web development and analytical skills.
 
-### `npm run build`
+The main goal of the web page is to showcase myself to the developer community. I look forward to starting a conversation so please welcome to my profile page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Project Status
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Updates will be added to the Profiles page as new projects are successfully completed.

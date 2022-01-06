@@ -85,10 +85,8 @@
   .about {
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
   }
   .about-left {
-    /* display: none; */
     width: 100%;
   }
 
@@ -106,8 +104,8 @@
   }
 }
 
-/* @media screen and (max-width: 768px) and (min-width: 480px) {
-  .about {
-    display: flex;
+@media screen and (min-width: 485px) {
+  .resume {
+    display: none;
   }
-} */
+}

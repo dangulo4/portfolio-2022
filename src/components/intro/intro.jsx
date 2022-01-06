@@ -4,7 +4,7 @@ import './intro.css'
 
 function intro() {
   return (
-    <main className='intro'>
+    <main className='intro' id='intro'>
       <section className='intro-left'>
         <div className='intro-left-wrapper'>
           <h2 className='intro-greeting'>Hello, my name is</h2>

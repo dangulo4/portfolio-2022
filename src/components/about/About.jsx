@@ -23,6 +23,11 @@ function about() {
       <section className='about-right'>
         <h1 className='about-title'>About Me</h1>
         <p className='about-sub'>
+          <h2 className='resume' style={{ color: '#e9976a', font: '400' }}>
+            <a href={Resume} target='_blank' rel='noreferrer'>
+              My Resume
+            </a>
+          </h2>
           Fullstack developer from sunny San Diego, CA. I truly believe that
           what makes us different makes us stronger. If I had to describe
           myself, I am a person with a versatile skill-set, a lot of integrity,
@@ -36,14 +41,14 @@ function about() {
         <div className='about-award'>
           <img src={Showcase} alt='' className='about-award-image' />
           <div className='about-award-texts'>
-            <h4 className='about-award-title'>My Resume</h4>
-            <p className='about-award-desc'>
-              Click {}
+            <h2
+              className='about-award-title'
+              style={{ color: '#e9976a', font: '400' }}
+            >
               <a href={Resume} target='_blank' rel='noreferrer'>
-                here
+                My Resume
               </a>
-              {} to view my Resume
-            </p>
+            </h2>
           </div>
         </div>
       </section>

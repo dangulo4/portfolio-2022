@@ -1,0 +1,56 @@
+.menu {
+  width: 280px;
+  height: 100vh;
+  background-color: #e9976a;
+  color: #333;
+  position: fixed;
+  top: 0;
+  right: -280px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  transition: all 1.2s ease;
+}
+
+.active {
+  right: 0;
+}
+
+.menu-u {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  width: 75%;
+}
+
+.menu-l {
+  margin-bottom: 25px;
+}
+
+a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    width: 140px;
+    padding: 0;
+    margin: 0;
+  }
+  .menu-u {
+    font-size: 18px;
+    width: 90%;
+  }
+}
