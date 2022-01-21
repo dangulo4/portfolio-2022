@@ -1,14 +1,63 @@
-import React from 'react'
+import { useContext } from 'react'
 import Cover from '../../img/testimonials-bg.jpg'
+import Github from '../../img/icons/github.svg'
+import LinkedIn from '../../img/icons/linkedin.svg'
+import Instagram from '../../img/icons/instagram.svg'
+import YouTube from '../../img/icons/youtube.svg'
+import { ThemeContext } from '../../context'
 import './intro.css'
 
-function intro() {
+const Intro = () => {
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode
+
   return (
     <main className='intro' id='intro'>
       <section className='intro-left'>
         <div className='intro-left-wrapper'>
           <h2 className='intro-greeting'>Hello, my name is</h2>
           <h1 className='intro-name'>Daniel Angulo</h1>
+          <div className='social-icons'>
+            <a
+              style={{
+                backgroundColor: darkMode && '#e9967a',
+              }}
+              href='https://github.com/dangulo4'
+              className='social-icon'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={Github} alt='Github' />
+            </a>
+            <a
+              style={{ backgroundColor: darkMode && 'lightblue' }}
+              href='https://www.linkedin.com/in/daniel-angulo-0b7a3781/'
+              className='social-icon'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={LinkedIn} alt='LinkedIn' />
+            </a>
+            <a
+              style={{ backgroundColor: darkMode && '#e9967a' }}
+              href='https://www.instagram.com/deecoys51/'
+              className='social-icon'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={Instagram} alt='Instagram' />
+            </a>
+            <a
+              style={{ backgroundColor: darkMode && 'lightblue' }}
+              href='https://www.youtube.com/channel/UCRKOrDOta1dCRL1-Blq4OwA/videos?view_as=subscriber'
+              className='social-icon'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={YouTube} alt='YouTube' />
+            </a>
+          </div>
+
           <div className='intro-title'>
             <div className='intro-title-wrapper'>
               <div className='intro-title-item'>Full Stack Developer</div>
@@ -89,4 +138,4 @@ function intro() {
   )
 }
 
-export default intro
+export default Intro

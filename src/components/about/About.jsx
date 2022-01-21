@@ -9,7 +9,7 @@ function about() {
   return (
     <main className='about' id='about'>
       <section className='about-left'>
-        <div className='about-card bg'></div>
+        {/* <div className='about-card bg'></div> */}
         <div className='about-card'>
           <a
             href='https://www.linkedin.com/in/daniel-angulo-0b7a3781/'
@@ -22,12 +22,12 @@ function about() {
       </section>
       <section className='about-right'>
         <h1 className='about-title'>About Me</h1>
+        <h2 className='resume' style={{ color: '#e9976a', font: '400' }}>
+          <a href={Resume} target='_blank' rel='noreferrer'>
+            My Resume
+          </a>
+        </h2>
         <p className='about-sub'>
-          <h2 className='resume' style={{ color: '#e9976a', font: '400' }}>
-            <a href={Resume} target='_blank' rel='noreferrer'>
-              My Resume
-            </a>
-          </h2>
           Fullstack developer from sunny San Diego, CA. I truly believe that
           what makes us different makes us stronger. If I had to describe
           myself, I am a person with a versatile skill-set, a lot of integrity,
