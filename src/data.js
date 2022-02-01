@@ -3,6 +3,7 @@ import Steadfast from './img/steadfast.png'
 import Employee from './img/employeeTracker.png'
 import MoviesDB from './img/moviesdb.png'
 import NoteTaker from './img/note-taker.png'
+import GithubSearch from './img/githubSearchUser.JPG'
 import FitnessTracker from './img/fitnessTracker.png'
 import StockPhotos from './img/stockPhotos.png'
 import BudgetTraker from './img/budgetTracker.png'
@@ -68,6 +69,15 @@ export const projects = [
   },
   {
     id: 7,
+    img: GithubSearch,
+    link: 'https://github-user-react.netlify.app',
+    code: 'https://github.com/dangulo4/github-search',
+    title: 'Github Search User',
+    description:
+      'Search for github users using github api. The single page app uses react router with Auth0  to add authentication and authorization services.',
+  },
+  {
+    id: 8,
     img: FitnessTracker,
     link: 'https://tranquil-mountain-06924.herokuapp.com/',
     code: 'https://github.com/dangulo4/workout-tracker',
@@ -76,7 +86,7 @@ export const projects = [
       'Ability to track the name, type, weight, sets, reps, and duration of exercise.',
   },
   {
-    id: 8,
+    id: 9,
     img: BudgetTraker,
     link: 'https://thawing-sea-70484.herokuapp.com/',
     code: 'https://github.com/dangulo4/pwa-budget-tracker',
@@ -85,7 +95,7 @@ export const projects = [
       'Budget Tracker application to allow for offline access and functionality.',
   },
   {
-    id: 9,
+    id: 10,
     img: EatTheBurger,
     link: 'https://hidden-earth-57033.herokuapp.com/',
     code: 'https://github.com/dangulo4/eat-da-burger',
@@ -94,7 +104,7 @@ export const projects = [
       'Following the MVC design pattern; Node and MySQL to query data,Handlebars to generate your HTML.',
   },
   {
-    id: 10,
+    id: 11,
     img: EmployeeTracker,
     link: '',
     code: 'https://github.com/dangulo4/employee-tracker',
@@ -103,7 +113,7 @@ export const projects = [
       'Content Management Systemssolution for managing a employees using node, inquirer, and MySQL.',
   },
   {
-    id: 11,
+    id: 12,
     img: ReadMeGenerator,
     link: '',
     code: 'https://github.com/dangulo4/ReadMe-Generator',
@@ -112,9 +122,9 @@ export const projects = [
       'Following the MVC design pattern; Node and MySQL to query data,Handlebars to generate your HTML.',
   },
   {
-    id: 12,
+    id: 13,
     img: GithubFinder,
-    link: 'https://elated-fermi-ca71c0.netlify.app/',
+    link: 'githubfinder-user.netlify.app',
     code: 'https://github.com/dangulo4/github-finder',
     title: 'GitHub Finder',
     description:
