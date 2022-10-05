@@ -63,7 +63,7 @@ export const projects = [
     img: StockPhotos,
     link: 'https://stockphotos-app.netlify.app/',
     code: 'https://github.com/dangulo4/stock-photos',
-    title: 'Stock Phots',
+    title: 'Stock Photos',
     description:
       'React Photo app uses api unpsplash and loads new photos as you scroll down.',
   },
